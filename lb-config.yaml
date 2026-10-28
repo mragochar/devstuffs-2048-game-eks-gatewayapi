@@ -1,0 +1,7 @@
+apiVersion: gateway.k8s.aws/v1
+kind: LoadBalancerConfiguration
+metadata:
+  name: external-lb
+  namespace: game-2048
+spec:
+  scheme: internet-facing
